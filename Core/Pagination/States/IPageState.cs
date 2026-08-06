@@ -1,6 +1,6 @@
 using System.Net.Http.Headers;
 
-namespace Geoapify.Core.Pagination.States;
+namespace GeoapifyApi.Core.Pagination.States;
 
 internal interface IPageState<in TResponse, out TState>
 {

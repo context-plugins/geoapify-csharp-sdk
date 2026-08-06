@@ -1,9 +1,9 @@
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Geoapify.Core.ErrorResponse;
+using GeoapifyApi.Core.ErrorResponse;
 
-namespace Geoapify.Core.Response;
+namespace GeoapifyApi.Core.Response;
 
 public sealed class RawErrorBodyResponse : IResponse<RawError>
 {

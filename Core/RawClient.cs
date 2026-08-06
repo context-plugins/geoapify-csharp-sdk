@@ -6,17 +6,17 @@ using System.Threading;
 using System.Threading.Tasks;
 using Polly;
 using Polly.Timeout;
-using Geoapify.Core.Authentication;
-using Geoapify.Core.ErrorResponse;
-using Geoapify.Core.Extensions;
-using Geoapify.Core.Logging;
-using Geoapify.Core.Models;
-using Geoapify.Core.Pagination;
-using Geoapify.Core.Pagination.States;
-using Geoapify.Core.Request;
-using Geoapify.Core.Response;
+using GeoapifyApi.Core.Authentication;
+using GeoapifyApi.Core.ErrorResponse;
+using GeoapifyApi.Core.Extensions;
+using GeoapifyApi.Core.Logging;
+using GeoapifyApi.Core.Models;
+using GeoapifyApi.Core.Pagination;
+using GeoapifyApi.Core.Pagination.States;
+using GeoapifyApi.Core.Request;
+using GeoapifyApi.Core.Response;
 
-namespace Geoapify.Core;
+namespace GeoapifyApi.Core;
 
 internal sealed class RawClient
 {

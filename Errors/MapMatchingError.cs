@@ -1,10 +1,10 @@
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Geoapify.Core.ErrorResponse;
-using Geoapify.Core.Models;
+using GeoapifyApi.Core.ErrorResponse;
+using GeoapifyApi.Core.Models;
 
-namespace Geoapify.Errors;
+namespace GeoapifyApi.Errors;
 
 public sealed class MapMatchingError : ApiError
 {

@@ -1,7 +1,7 @@
-using Geoapify.Core.ErrorResponse;
-using Geoapify.Core.Response;
+using GeoapifyApi.Core.ErrorResponse;
+using GeoapifyApi.Core.Response;
 
-namespace Geoapify.Core.Models;
+namespace GeoapifyApi.Core.Models;
 
 internal sealed class ApiResponse<TResponse, TError>
 {

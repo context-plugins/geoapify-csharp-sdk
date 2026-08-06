@@ -1,7 +1,7 @@
 using System;
 using System.Net.Http.Headers;
 
-namespace Geoapify.Core.Models;
+namespace GeoapifyApi.Core.Models;
 
 public sealed class ErrorByteContent
 {

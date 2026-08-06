@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 
-namespace Geoapify.Core.Configuration;
+namespace GeoapifyApi.Core.Configuration;
 
 public record RetryOptions
 {

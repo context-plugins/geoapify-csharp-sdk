@@ -2,9 +2,9 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Net;
 using System.Net.Http.Headers;
-using Geoapify.Core.Exceptions;
+using GeoapifyApi.Core.Exceptions;
 
-namespace Geoapify.Core.Models;
+namespace GeoapifyApi.Core.Models;
 
 /// <summary>
 ///     Represents either a successful response of type <typeparamref name="TResponse" />

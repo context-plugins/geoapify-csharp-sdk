@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace Geoapify.Core.Authentication.OAuth2;
+namespace GeoapifyApi.Core.Authentication.OAuth2;
 
 /// <summary>
 /// Extends <see cref="OAuthToken"/> with an optional refresh token for grant types that may

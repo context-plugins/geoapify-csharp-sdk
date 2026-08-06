@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace Geoapify.Core.Models;
+namespace GeoapifyApi.Core.Models;
 
 [DebuggerDisplay("{GetDebuggerDisplay(),nq}")]
 internal readonly record struct Optional<TValue>

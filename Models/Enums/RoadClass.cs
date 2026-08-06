@@ -1,10 +1,10 @@
 using System.Text.Json.Serialization;
-using Geoapify.Core.Enum;
+using GeoapifyApi.Core.Enum;
 
-namespace Geoapify.Models.Enums;
+namespace GeoapifyApi.Models.Enums;
 
 /// <summary>
-/// Road class. Possible values unclassified, motorway, trunk, primary, secondary, tertiary, unclassified, residential, service_other, Road class
+/// Road class. Possible values unclassified, motorway, trunk, primary, secondary, tertiary, unclassified, residential, service_other
 /// </summary>
 [JsonConverter(typeof(StringEnumConverter<RoadClass>))]
 public sealed record RoadClass : StringEnum<RoadClass>

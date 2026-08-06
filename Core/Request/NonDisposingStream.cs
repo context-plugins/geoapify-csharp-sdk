@@ -3,7 +3,7 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Geoapify.Core.Request;
+namespace GeoapifyApi.Core.Request;
 
 internal sealed class NonDisposingStream : Stream
 {

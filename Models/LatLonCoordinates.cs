@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace Geoapify.Models;
+namespace GeoapifyApi.Models;
 
 public record LatLonCoordinates
 {

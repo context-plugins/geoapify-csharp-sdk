@@ -1,6 +1,6 @@
-using Geoapify.Core.Enum;
+using GeoapifyApi.Core.Enum;
 
-namespace Geoapify.Core.Webhooks;
+namespace GeoapifyApi.Core.Webhooks;
 
 public abstract record WebhookEvent<TPayload>
 {

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 
-namespace Geoapify.Core.Exceptions;
+namespace GeoapifyApi.Core.Exceptions;
 
 public sealed class AuthSchemeException : Exception
 {

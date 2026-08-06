@@ -1,10 +1,10 @@
 using System.Text.Json.Serialization;
-using Geoapify.Core.Enum;
+using GeoapifyApi.Core.Enum;
 
-namespace Geoapify.Models.Enums;
+namespace GeoapifyApi.Models.Enums;
 
 /// <summary>
-/// Type of surface. Possible values paved_smooth, paved, paved_rough, compacted, dirt, gravel, path, impassable, Road surface type
+/// Type of surface. Possible values paved_smooth, paved, paved_rough, compacted, dirt, gravel, path, impassable
 /// </summary>
 [JsonConverter(typeof(StringEnumConverter<Surface>))]
 public sealed record Surface : StringEnum<Surface>

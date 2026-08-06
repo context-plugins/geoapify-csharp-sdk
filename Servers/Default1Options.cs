@@ -1,6 +1,6 @@
-using Geoapify.Core.Models;
+using GeoapifyApi.Core.Models;
 
-namespace Geoapify.Servers;
+namespace GeoapifyApi.Servers;
 
 public class Default1Options
 {

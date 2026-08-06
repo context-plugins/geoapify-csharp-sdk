@@ -6,7 +6,7 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Geoapify.Core.ErrorResponse;
+namespace GeoapifyApi.Core.ErrorResponse;
 
 public sealed class RawError
 {

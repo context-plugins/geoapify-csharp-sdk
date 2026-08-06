@@ -1,8 +1,8 @@
 using System.Net.Http;
 using System.Net.Http.Headers;
-using Geoapify.Core.Models;
+using GeoapifyApi.Core.Models;
 
-namespace Geoapify.Core.Request;
+namespace GeoapifyApi.Core.Request;
 
 internal sealed class BinaryRequest : IRequest
 {

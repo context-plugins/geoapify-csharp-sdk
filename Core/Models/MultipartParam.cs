@@ -1,4 +1,4 @@
-namespace Geoapify.Core.Models;
+namespace GeoapifyApi.Core.Models;
 
 internal readonly record struct MultipartParam(
     string Key,

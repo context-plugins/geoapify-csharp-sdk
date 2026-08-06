@@ -4,9 +4,9 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Geoapify.Core.Exceptions;
+using GeoapifyApi.Core.Exceptions;
 
-namespace Geoapify.Core.Authentication;
+namespace GeoapifyApi.Core.Authentication;
 
 /// <summary>
 /// Represents multiple alternative schemes (OR logic).

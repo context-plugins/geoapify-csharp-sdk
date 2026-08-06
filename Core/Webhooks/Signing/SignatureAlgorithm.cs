@@ -1,6 +1,6 @@
 using System.Security.Cryptography;
 
-namespace Geoapify.Core.Webhooks.Signing;
+namespace GeoapifyApi.Core.Webhooks.Signing;
 
 internal abstract record SignatureAlgorithm
 {

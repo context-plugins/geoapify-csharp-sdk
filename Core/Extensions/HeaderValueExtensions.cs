@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Net.Http.Headers;
 
-namespace Geoapify.Core.Extensions;
+namespace GeoapifyApi.Core.Extensions;
 
 internal static class HeaderValueExtensions
 {

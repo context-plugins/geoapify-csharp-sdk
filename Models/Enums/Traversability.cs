@@ -1,10 +1,10 @@
 using System.Text.Json.Serialization;
-using Geoapify.Core.Enum;
+using GeoapifyApi.Core.Enum;
 
-namespace Geoapify.Models.Enums;
+namespace GeoapifyApi.Models.Enums;
 
 /// <summary>
-/// Traversability of the road segment. Possible values forward, backward, both, Traversability direction
+/// Traversability of the road segment. Possible values forward, backward, both
 /// </summary>
 [JsonConverter(typeof(StringEnumConverter<Traversability>))]
 public sealed record Traversability : StringEnum<Traversability>

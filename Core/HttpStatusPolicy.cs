@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 
-namespace Geoapify.Core;
+namespace GeoapifyApi.Core;
 
 internal sealed class HttpStatusPolicy
 {

@@ -1,6 +1,6 @@
 using System;
 
-namespace Geoapify.Core.Webhooks.Signing;
+namespace GeoapifyApi.Core.Webhooks.Signing;
 
 internal abstract record SignatureDigestEncoding
 {

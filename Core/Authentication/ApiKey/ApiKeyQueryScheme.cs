@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Geoapify.Core.Authentication.ApiKey;
+namespace GeoapifyApi.Core.Authentication.ApiKey;
 
 internal sealed class ApiKeyQueryScheme : IAuthScheme
 {

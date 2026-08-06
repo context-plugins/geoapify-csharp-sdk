@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
-using Geoapify.Core.Models;
+using GeoapifyApi.Core.Models;
 
-namespace Geoapify.Core.Request;
+namespace GeoapifyApi.Core.Request;
 
 internal sealed class FormUrlEncodedRequest : IRequest
 {

@@ -1,6 +1,6 @@
 # Reference
 
-> Source: [GeoapifyClient](GeoapifyClient.cs)
+> Source: [GeoapifyApiClient](GeoapifyApiClient.cs)
 
 ## AddressAutocompleteApi
 
@@ -334,7 +334,7 @@ catch (SdkException<MapMatchingError> ex)
 > Source: [PlacesApi](Api/PlacesApi.cs)
 
 <details>
-<summary><code>Task GetPlaces(string apiKey, string categories, string? conditions, string? filter, string? bias, int? limit, int? offset, string? lang, string? name, RequestOptions? requestOptions = null, CancellationToken ct = default);</code></summary>
+<summary><code>Task&lt;PlacesResponse&gt; GetPlaces(string apiKey, string categories, string? conditions, string? filter, string? bias, int? limit, int? offset, string? lang, string? name, RequestOptions? requestOptions = null, CancellationToken ct = default);</code></summary>
 
 <dl>
 <dd>
@@ -358,7 +358,16 @@ Returns points of interest based on specified location and filters. You can filt
 ```csharp
 try
 {
-    await client.PlacesApi.GetPlaces(apiKey, categories, conditions, filter, bias, limit, offset, lang, name);
+    var response = await client.PlacesApi.GetPlaces(apiKey,
+        categories,
+        conditions,
+        filter,
+        bias,
+        limit,
+        offset,
+        lang,
+        name);
+    // TODO: Handle 'response' of type PlacesResponse
 }
 catch (SdkException<GetPlacesError> ex)
 {
@@ -397,7 +406,7 @@ catch (SdkException<GetPlacesError> ex)
 <dl>
 <dd>
 
-**OnSuccess**: No content
+**OnSuccess**: <code>[PlacesResponse](Models/PlacesResponse.cs)</code>
 
 **OnError**: <code>[SdkException](Core/Exceptions/SdkException.cs)&lt;[GetPlacesError](Errors/GetPlacesError.cs)&gt;</code>
 

@@ -2,7 +2,7 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Geoapify.Core.Authentication;
+namespace GeoapifyApi.Core.Authentication;
 
 internal sealed class NoneAuthScheme : IAuthScheme
 {

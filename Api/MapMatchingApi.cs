@@ -2,15 +2,15 @@ using System;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Geoapify.Core;
-using Geoapify.Core.Exceptions;
-using Geoapify.Core.Models;
-using Geoapify.Core.Request;
-using Geoapify.Core.Response;
-using Geoapify.Errors;
-using Geoapify.Models;
+using GeoapifyApi.Core;
+using GeoapifyApi.Core.Exceptions;
+using GeoapifyApi.Core.Models;
+using GeoapifyApi.Core.Request;
+using GeoapifyApi.Core.Response;
+using GeoapifyApi.Errors;
+using GeoapifyApi.Models;
 
-namespace Geoapify.Api;
+namespace GeoapifyApi.Api;
 
 /// <summary>
 /// Matches geographical coordinates, such as GPS tracks, to the closest roads and pathways in the existing road network, improving the accuracy of location data for various transportation modes.

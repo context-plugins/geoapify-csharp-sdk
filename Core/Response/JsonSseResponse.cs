@@ -7,9 +7,9 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
-using Geoapify.Core.Exceptions;
+using GeoapifyApi.Core.Exceptions;
 
-namespace Geoapify.Core.Response;
+namespace GeoapifyApi.Core.Response;
 
 internal sealed class JsonSseResponse<TResponse> : IResponse<IAsyncEnumerable<TResponse>>
 {

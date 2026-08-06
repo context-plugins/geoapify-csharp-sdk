@@ -5,9 +5,9 @@ using System.Net.ServerSentEvents;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
-using Geoapify.Core.Exceptions;
+using GeoapifyApi.Core.Exceptions;
 
-namespace Geoapify.Core.Response;
+namespace GeoapifyApi.Core.Response;
 
 internal static class SseFrameReader
 {

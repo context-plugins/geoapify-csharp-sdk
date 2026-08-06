@@ -1,9 +1,9 @@
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Geoapify.Core.Models;
+using GeoapifyApi.Core.Models;
 
-namespace Geoapify.Core.Response;
+namespace GeoapifyApi.Core.Response;
 
 internal sealed class ErrorByteResponse : IResponse<ErrorByteContent>
 {

@@ -1,7 +1,7 @@
 using System;
 using System.Net;
 
-namespace Geoapify.Core.Configuration;
+namespace GeoapifyApi.Core.Configuration;
 
 public sealed record RetryAttempt
 {

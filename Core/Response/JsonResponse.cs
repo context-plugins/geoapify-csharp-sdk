@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Geoapify.Core.Response;
+namespace GeoapifyApi.Core.Response;
 
 internal sealed class JsonResponse<TResponse> : IResponse<TResponse>
 {

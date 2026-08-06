@@ -1,8 +1,8 @@
 using System;
 using Microsoft.Extensions.Logging;
-using Geoapify.Core.Configuration;
+using GeoapifyApi.Core.Configuration;
 
-namespace Geoapify.Core.Logging;
+namespace GeoapifyApi.Core.Logging;
 
 internal static class LoggingEnvironment
 {

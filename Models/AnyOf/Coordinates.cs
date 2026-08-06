@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using Geoapify.Core.Extensions;
-using Geoapify.Core.Models;
+using GeoapifyApi.Core.Extensions;
+using GeoapifyApi.Core.Models;
 
-namespace Geoapify.Models.AnyOf;
+namespace GeoapifyApi.Models.AnyOf;
 
 [JsonConverter(typeof(CoordinatesConverter))]
 public record Coordinates

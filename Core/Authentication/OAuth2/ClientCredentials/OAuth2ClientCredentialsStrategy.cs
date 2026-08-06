@@ -4,12 +4,12 @@ using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Geoapify.Core.ErrorResponse;
-using Geoapify.Core.Models;
-using Geoapify.Core.Request;
-using Geoapify.Core.Response;
+using GeoapifyApi.Core.ErrorResponse;
+using GeoapifyApi.Core.Models;
+using GeoapifyApi.Core.Request;
+using GeoapifyApi.Core.Response;
 
-namespace Geoapify.Core.Authentication.OAuth2.ClientCredentials;
+namespace GeoapifyApi.Core.Authentication.OAuth2.ClientCredentials;
 
 internal sealed class OAuth2ClientCredentialsStrategy : IOAuth2TokenStrategy<OAuth2ClientCredentials>
 {

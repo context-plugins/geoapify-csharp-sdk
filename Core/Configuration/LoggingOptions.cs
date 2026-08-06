@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Microsoft.Extensions.Logging;
 
-namespace Geoapify.Core.Configuration;
+namespace GeoapifyApi.Core.Configuration;
 
 public record LoggingOptions
 {

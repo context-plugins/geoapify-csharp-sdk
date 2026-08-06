@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
-using Geoapify.Core.Enum;
+using GeoapifyApi.Core.Enum;
 
-namespace Geoapify.Models.Enums;
+namespace GeoapifyApi.Models.Enums;
 
 [JsonConverter(typeof(StringEnumConverter<Type5>))]
 public sealed record Type5 : StringEnum<Type5>

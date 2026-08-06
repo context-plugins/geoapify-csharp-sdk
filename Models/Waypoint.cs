@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace Geoapify.Models;
+namespace GeoapifyApi.Models;
 
 public record Waypoint
 {

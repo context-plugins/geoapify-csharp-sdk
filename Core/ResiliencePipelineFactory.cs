@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 using Polly;
 using Polly.Retry;
 using Polly.Timeout;
-using Geoapify.Core.Configuration;
-using Geoapify.Core.Logging;
-using Geoapify.Core.Request;
+using GeoapifyApi.Core.Configuration;
+using GeoapifyApi.Core.Logging;
+using GeoapifyApi.Core.Request;
 
-namespace Geoapify.Core;
+namespace GeoapifyApi.Core;
 
 internal sealed class ResiliencePipelineFactory
 {

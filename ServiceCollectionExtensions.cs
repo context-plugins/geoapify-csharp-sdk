@@ -3,15 +3,15 @@ using System.Net.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace Geoapify;
+namespace GeoapifyApi;
 
 public static class ServiceCollectionExtensions
 {
     extension(IServiceCollection services)
     {
-        public IServiceCollection AddGeoapifyClient(Action<GeoapifyClientOptions>? configure = null)
+        public IServiceCollection AddGeoapifyApiClient(Action<GeoapifyApiClientOptions>? configure = null)
         {
-            var options = new GeoapifyClientOptions();
+            var options = new GeoapifyApiClientOptions();
             configure?.Invoke(options);
             services.AddHttpClient();
             services.AddSingleton(sp =>
@@ -23,7 +23,7 @@ public static class ServiceCollectionExtensions
                         };
                     var httpClientFactory = sp.GetRequiredService<IHttpClientFactory>();
                     var httpClient = httpClientFactory.CreateClient();
-                    return new GeoapifyClient(httpClient, options);
+                    return new GeoapifyApiClient(httpClient, options);
                 });
             return services;
         }

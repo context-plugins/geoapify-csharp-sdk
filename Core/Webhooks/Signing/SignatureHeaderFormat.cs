@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Geoapify.Core.Webhooks.Signing;
+namespace GeoapifyApi.Core.Webhooks.Signing;
 
 internal abstract record SignatureHeaderFormat
 {

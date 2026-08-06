@@ -1,7 +1,7 @@
 using System.Net.Http;
 using System.Net.Http.Json;
 
-namespace Geoapify.Core.Request;
+namespace GeoapifyApi.Core.Request;
 
 internal sealed class JsonRequest<TData> : IRequest
 {

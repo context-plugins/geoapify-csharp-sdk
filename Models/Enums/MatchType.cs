@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
-using Geoapify.Core.Enum;
+using GeoapifyApi.Core.Enum;
 
-namespace Geoapify.Models.Enums;
+namespace GeoapifyApi.Models.Enums;
 
 /// <summary>
 /// Matched type. Possible values matched, unmatched, interpolated

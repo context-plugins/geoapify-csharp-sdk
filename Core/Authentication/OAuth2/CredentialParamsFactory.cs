@@ -1,5 +1,5 @@
 using System.Collections.Generic;
 
-namespace Geoapify.Core.Authentication.OAuth2;
+namespace GeoapifyApi.Core.Authentication.OAuth2;
 
 internal delegate IReadOnlyList<T> CredentialParamsFactory<out T>(string clientId, string? clientSecret);

@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Geoapify.Core.Models;
+using GeoapifyApi.Core.Models;
 
-namespace Geoapify.Core;
+namespace GeoapifyApi.Core;
 
 internal sealed class TemplateParamsFactory
 {

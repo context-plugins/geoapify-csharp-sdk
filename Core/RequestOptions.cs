@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Logging;
 
-namespace Geoapify.Core;
+namespace GeoapifyApi.Core;
 
 public sealed record RequestOptions
 {

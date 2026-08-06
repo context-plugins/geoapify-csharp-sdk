@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.ComponentModel.DataAnnotations;
 
-namespace Geoapify.Core.Validation.Attributes;
+namespace GeoapifyApi.Core.Validation.Attributes;
 
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]
 public sealed class MaxPropertiesAttribute : ValidationAttribute

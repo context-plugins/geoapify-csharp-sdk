@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Net.Http.Headers;
-using Geoapify.Core.Models;
+using GeoapifyApi.Core.Models;
 
-namespace Geoapify.Core.Extensions;
+namespace GeoapifyApi.Core.Extensions;
 
 internal static class HttpRequestExtensions
 {

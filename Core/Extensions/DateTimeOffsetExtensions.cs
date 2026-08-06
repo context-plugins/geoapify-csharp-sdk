@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
 
-namespace Geoapify.Core.Extensions;
+namespace GeoapifyApi.Core.Extensions;
 
 internal static class DateTimeOffsetExtensions
 {

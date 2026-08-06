@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace Geoapify.Core;
+namespace GeoapifyApi.Core;
 
 internal static class RuntimeEnvironment
 {

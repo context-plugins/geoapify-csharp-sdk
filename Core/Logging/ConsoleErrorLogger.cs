@@ -1,7 +1,7 @@
 using System;
 using Microsoft.Extensions.Logging;
 
-namespace Geoapify.Core.Logging;
+namespace GeoapifyApi.Core.Logging;
 
 internal sealed class ConsoleErrorLoggerFactory : ILoggerFactory
 {

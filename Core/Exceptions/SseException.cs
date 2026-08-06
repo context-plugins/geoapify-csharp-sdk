@@ -1,6 +1,6 @@
 using System;
 
-namespace Geoapify.Core.Exceptions;
+namespace GeoapifyApi.Core.Exceptions;
 
 public abstract class SseException : Exception
 {

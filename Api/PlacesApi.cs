@@ -1,14 +1,15 @@
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Geoapify.Core;
-using Geoapify.Core.Exceptions;
-using Geoapify.Core.Models;
-using Geoapify.Core.Request;
-using Geoapify.Core.Response;
-using Geoapify.Errors;
+using GeoapifyApi.Core;
+using GeoapifyApi.Core.Exceptions;
+using GeoapifyApi.Core.Models;
+using GeoapifyApi.Core.Request;
+using GeoapifyApi.Core.Response;
+using GeoapifyApi.Errors;
+using GeoapifyApi.Models;
 
-namespace Geoapify.Api;
+namespace GeoapifyApi.Api;
 
 /// <summary>
 /// API for querying points of interest and amenities.
@@ -38,12 +39,12 @@ public sealed class PlacesApi
     /// <param name="name">Filter places by the given name.</param>
     /// <param name="requestOptions">Per-request options, such as an overriding log level for this call</param>
     /// <param name="ct">Cancellation token</param>
-    /// <returns>A <see cref="Task"/> instance.</returns>
+    /// <returns>A <see cref="Task{TResult}"/> of <see cref="PlacesResponse"/> instance.</returns>
     /// <exception cref="SdkException{TResult}"> of <see cref="GetPlacesError"/> when the server returns an error response.</exception>
     /// <remarks>
     /// Returns points of interest based on specified location and filters. You can filter places by category, conditions (e.g., wheelchair accessible), and geometry (bounding box, circle, etc.).
     /// </remarks>
-    public Task GetPlaces(string apiKey,
+    public Task<PlacesResponse> GetPlaces(string apiKey,
         string categories,
         string? conditions,
         string? filter,
@@ -68,7 +69,7 @@ public sealed class PlacesApi
             [],
             HttpMethod.Get,
             EmptyBody.Instance,
-            VoidResponse.Instance,
+            JsonResponse.Create<PlacesResponse>(),
             GetPlacesErrorResponse.Instance,
             [],
             requestOptions,

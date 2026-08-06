@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
-using Geoapify.Core.Configuration;
+using GeoapifyApi.Core.Configuration;
 
-namespace Geoapify.Core.Logging;
+namespace GeoapifyApi.Core.Logging;
 
 internal sealed class HttpLogger
 {

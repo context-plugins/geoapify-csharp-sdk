@@ -1,12 +1,10 @@
 using System.Text.Json.Serialization;
-using Geoapify.Core.Enum;
+using GeoapifyApi.Core.Enum;
 
-namespace Geoapify.Models.Enums;
+namespace GeoapifyApi.Models.Enums;
 
 /// <summary>
-/// Distance units used, Specifies the unit system to use for measuring distances in the response.
-///   - <c>metric</c>: Uses kilometers and meters.
-///   - <c>imperial</c>: Uses miles and feet., Distance units used
+/// Distance units used
 /// </summary>
 [JsonConverter(typeof(StringEnumConverter<UnitsEnum>))]
 public sealed record UnitsEnum : StringEnum<UnitsEnum>

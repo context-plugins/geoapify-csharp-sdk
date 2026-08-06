@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text.Json;
-using Geoapify.Core.Extensions;
-using Geoapify.Core.Models;
+using GeoapifyApi.Core.Extensions;
+using GeoapifyApi.Core.Models;
 
-namespace Geoapify.Core;
+namespace GeoapifyApi.Core;
 
 internal static class ParameterFlattener
 {

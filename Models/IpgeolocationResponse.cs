@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
-using Geoapify.Core.Validation;
-using Geoapify.Core.Validation.Attributes;
+using GeoapifyApi.Core.Validation;
+using GeoapifyApi.Core.Validation.Attributes;
 
-namespace Geoapify.Models;
+namespace GeoapifyApi.Models;
 
 public record IpgeolocationResponse
 {

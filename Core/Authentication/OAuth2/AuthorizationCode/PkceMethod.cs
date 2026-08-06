@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
-using Geoapify.Core.Enum;
+using GeoapifyApi.Core.Enum;
 
-namespace Geoapify.Core.Authentication.OAuth2.AuthorizationCode;
+namespace GeoapifyApi.Core.Authentication.OAuth2.AuthorizationCode;
 
 [JsonConverter(typeof(StringEnumConverter<PkceMethod>))]
 public sealed record PkceMethod : StringEnum<PkceMethod>

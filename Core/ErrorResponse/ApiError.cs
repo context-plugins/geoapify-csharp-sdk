@@ -2,10 +2,10 @@ using System;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Geoapify.Core.Models;
-using Geoapify.Core.Response;
+using GeoapifyApi.Core.Models;
+using GeoapifyApi.Core.Response;
 
-namespace Geoapify.Core.ErrorResponse;
+namespace GeoapifyApi.Core.ErrorResponse;
 
 public abstract class ApiError
 {

@@ -1,14 +1,14 @@
 using System;
 using System.Text.Json.Serialization;
-using Geoapify.Core.Enum;
+using GeoapifyApi.Core.Enum;
 
-namespace Geoapify.Servers;
+namespace GeoapifyApi.Servers;
 
 [JsonConverter(typeof(StringEnumConverter<ServerEnvironment>))]
 public record ServerEnvironment : StringEnum<ServerEnvironment>
 {
     /// <summary>
-    /// Primary Geoapify API endpoint, Main Geoapify API server, Primary Geoapify API endpoint, Primary Geoapify API endpoint, Primary Geoapify API endpoint
+    /// Primary Geoapify API endpoint
     /// </summary>
     public static readonly ServerEnvironment Production = new("production");
 

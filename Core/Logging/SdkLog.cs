@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.Extensions.Logging;
 
-namespace Geoapify.Core.Logging;
+namespace GeoapifyApi.Core.Logging;
 
 internal static partial class SdkLog
 {

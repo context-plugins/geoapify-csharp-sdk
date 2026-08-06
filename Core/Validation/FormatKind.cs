@@ -1,4 +1,4 @@
-namespace Geoapify.Core.Validation;
+namespace GeoapifyApi.Core.Validation;
 
 public enum FormatKind
 {

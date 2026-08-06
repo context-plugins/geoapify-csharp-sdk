@@ -1,8 +1,8 @@
 using System.Text.Json.Serialization;
-using Geoapify.Models.AnyOf;
-using Geoapify.Models.Enums;
+using GeoapifyApi.Models.AnyOf;
+using GeoapifyApi.Models.Enums;
 
-namespace Geoapify.Models;
+namespace GeoapifyApi.Models;
 
 /// <summary>
 /// Feature geometry

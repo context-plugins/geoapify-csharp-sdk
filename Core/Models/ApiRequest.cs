@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Net.Http;
-using Geoapify.Core.Authentication;
-using Geoapify.Core.Request;
+using GeoapifyApi.Core.Authentication;
+using GeoapifyApi.Core.Request;
 
-namespace Geoapify.Core.Models;
+namespace GeoapifyApi.Core.Models;
 
 internal sealed class ApiRequest
 {

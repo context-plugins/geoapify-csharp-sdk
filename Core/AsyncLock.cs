@@ -2,7 +2,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Geoapify.Core;
+namespace GeoapifyApi.Core;
 
 internal sealed class AsyncLock
 {

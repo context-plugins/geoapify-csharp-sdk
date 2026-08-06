@@ -5,7 +5,7 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 #endif
 
-namespace Geoapify.Core.Models;
+namespace GeoapifyApi.Core.Models;
 
 public sealed class BinaryContent : IDisposable
 #if NET6_0_OR_GREATER

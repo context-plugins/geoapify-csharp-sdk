@@ -1,9 +1,9 @@
 using System;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using Geoapify.Core.Extensions;
+using GeoapifyApi.Core.Extensions;
 
-namespace Geoapify.Core.Converters;
+namespace GeoapifyApi.Core.Converters;
 
 internal sealed class Rfc1123DateTimeOffsetConverter : JsonConverter<DateTimeOffset>
 {

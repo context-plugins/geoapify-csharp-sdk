@@ -1,7 +1,7 @@
-using Geoapify.Core.Models;
-using Geoapify.Servers;
+using GeoapifyApi.Core.Models;
+using GeoapifyApi.Servers;
 
-namespace Geoapify;
+namespace GeoapifyApi;
 
 public class Server
 {

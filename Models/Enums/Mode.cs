@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
-using Geoapify.Core.Enum;
+using GeoapifyApi.Core.Enum;
 
-namespace Geoapify.Models.Enums;
+namespace GeoapifyApi.Models.Enums;
 
 /// <summary>
 /// Specifies the transportation mode to be used for route calculation. Choose from various options based on the vehicle or method of travel, including:

@@ -1,16 +1,16 @@
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Geoapify.Core;
-using Geoapify.Core.Exceptions;
-using Geoapify.Core.Models;
-using Geoapify.Core.Request;
-using Geoapify.Core.Response;
-using Geoapify.Errors;
-using Geoapify.Models;
-using Geoapify.Models.Enums;
+using GeoapifyApi.Core;
+using GeoapifyApi.Core.Exceptions;
+using GeoapifyApi.Core.Models;
+using GeoapifyApi.Core.Request;
+using GeoapifyApi.Core.Response;
+using GeoapifyApi.Errors;
+using GeoapifyApi.Models;
+using GeoapifyApi.Models.Enums;
 
-namespace Geoapify.Api;
+namespace GeoapifyApi.Api;
 
 /// <summary>
 /// API for calculating isochrones (time-based areas) and isodistances (distance-based areas) from a given location.

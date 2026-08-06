@@ -1,6 +1,6 @@
 using System.Net.Http;
 
-namespace Geoapify.Core.Request;
+namespace GeoapifyApi.Core.Request;
 
 internal sealed class EmptyBody : IRequest
 {

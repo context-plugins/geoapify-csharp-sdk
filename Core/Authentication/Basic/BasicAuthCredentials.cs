@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace Geoapify.Core.Authentication.Basic;
+namespace GeoapifyApi.Core.Authentication.Basic;
 
 public sealed class BasicAuthCredentials
 {

@@ -2,9 +2,9 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
-using Geoapify.Core.Models;
+using GeoapifyApi.Core.Models;
 
-namespace Geoapify.Core.Response;
+namespace GeoapifyApi.Core.Response;
 
 internal sealed class BinaryResponse : IResponse<BinaryContent>
 {

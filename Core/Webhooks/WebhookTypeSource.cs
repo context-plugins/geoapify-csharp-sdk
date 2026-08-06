@@ -1,7 +1,7 @@
 using System;
 using System.Text.Json;
 
-namespace Geoapify.Core.Webhooks;
+namespace GeoapifyApi.Core.Webhooks;
 
 internal abstract record WebhookTypeSource
 {

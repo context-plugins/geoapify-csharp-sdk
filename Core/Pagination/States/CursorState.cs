@@ -1,7 +1,7 @@
 using System;
 using System.Net.Http.Headers;
 
-namespace Geoapify.Core.Pagination.States;
+namespace GeoapifyApi.Core.Pagination.States;
 
 internal sealed record CursorState<TResponse> : IPageState<TResponse, CursorState<TResponse>>
 {

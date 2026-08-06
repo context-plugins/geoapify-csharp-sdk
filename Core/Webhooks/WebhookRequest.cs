@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Geoapify.Core.Webhooks;
+namespace GeoapifyApi.Core.Webhooks;
 
 public sealed class WebhookRequest
 {

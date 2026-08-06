@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
-using Geoapify.Models.Enums;
+using GeoapifyApi.Models.Enums;
 
-namespace Geoapify.Models;
+namespace GeoapifyApi.Models;
 
 public record AutocompleteGeoJsonResponse
 {

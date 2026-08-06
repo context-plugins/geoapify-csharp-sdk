@@ -2,7 +2,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Reflection;
 
-namespace Geoapify.Core.Enum;
+namespace GeoapifyApi.Core.Enum;
 
 public abstract record IntEnum<TEnum> : TypedEnum<int, TEnum>
     where TEnum : IntEnum<TEnum>

@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text.Json;
 
-namespace Geoapify.Core.Validation.Attributes;
+namespace GeoapifyApi.Core.Validation.Attributes;
 
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]
 public sealed class UniqueItemsAttribute : ValidationAttribute

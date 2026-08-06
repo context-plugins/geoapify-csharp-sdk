@@ -1,6 +1,6 @@
-using Geoapify.Servers;
+using GeoapifyApi.Servers;
 
-namespace Geoapify;
+namespace GeoapifyApi;
 
 public class ServerOptions
 {

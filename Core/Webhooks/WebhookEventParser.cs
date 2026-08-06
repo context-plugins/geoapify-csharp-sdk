@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace Geoapify.Core.Webhooks;
+namespace GeoapifyApi.Core.Webhooks;
 
 public abstract class WebhookEventParser<TEvent>
     where TEvent : class

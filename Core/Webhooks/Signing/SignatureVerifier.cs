@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace Geoapify.Core.Webhooks.Signing;
+namespace GeoapifyApi.Core.Webhooks.Signing;
 
 internal sealed class SignatureVerifier
 {

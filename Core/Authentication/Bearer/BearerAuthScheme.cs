@@ -3,7 +3,7 @@ using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Geoapify.Core.Authentication.Bearer;
+namespace GeoapifyApi.Core.Authentication.Bearer;
 
 internal sealed class BearerAuthScheme : IAuthScheme
 {

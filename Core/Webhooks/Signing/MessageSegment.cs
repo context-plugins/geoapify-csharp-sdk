@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Geoapify.Core.Webhooks.Signing;
+namespace GeoapifyApi.Core.Webhooks.Signing;
 
 internal abstract record MessageSegment
 {

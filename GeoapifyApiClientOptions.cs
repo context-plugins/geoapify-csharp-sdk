@@ -1,9 +1,9 @@
-using Geoapify.Core.Configuration;
-using Geoapify.Servers;
+using GeoapifyApi.Core.Configuration;
+using GeoapifyApi.Servers;
 
-namespace Geoapify;
+namespace GeoapifyApi;
 
-public class GeoapifyClientOptions
+public class GeoapifyApiClientOptions
 {
     public ServerEnvironment Environment { get; set; } = ServerEnvironment.Default();
     public RetryOptions Retry { get; set; } = RetryOptions.Default();

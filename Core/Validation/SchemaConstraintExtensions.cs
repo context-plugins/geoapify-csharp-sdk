@@ -3,7 +3,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text.RegularExpressions;
 
-namespace Geoapify.Core.Validation;
+namespace GeoapifyApi.Core.Validation;
 
 internal static class SchemaConstraintExtensions
 {

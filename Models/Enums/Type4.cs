@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
-using Geoapify.Core.Enum;
+using GeoapifyApi.Core.Enum;
 
-namespace Geoapify.Models.Enums;
+namespace GeoapifyApi.Models.Enums;
 
 /// <summary>
 /// The type of feature to avoid, such as toll roads, highways, or specific geographic locations.

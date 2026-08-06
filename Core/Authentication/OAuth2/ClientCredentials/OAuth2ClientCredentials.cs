@@ -1,4 +1,4 @@
-namespace Geoapify.Core.Authentication.OAuth2.ClientCredentials;
+namespace GeoapifyApi.Core.Authentication.OAuth2.ClientCredentials;
 
 public sealed class OAuth2ClientCredentials
 {

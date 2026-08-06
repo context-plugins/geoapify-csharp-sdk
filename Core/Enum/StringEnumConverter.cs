@@ -4,7 +4,7 @@ using System.Reflection;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Geoapify.Core.Enum;
+namespace GeoapifyApi.Core.Enum;
 
 public sealed class StringEnumConverter<TEnum> : JsonConverter<TEnum> where TEnum : StringEnum<TEnum>
 {
